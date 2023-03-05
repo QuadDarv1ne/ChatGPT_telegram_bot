@@ -7,7 +7,7 @@ from openai.error import RateLimitError, InvalidRequestError
 
 env = {
     **dotenv_values("/home/ChatGPT_telegram_bot/.env.prod"),
-    **dotenv_values(".env.dev"),  # override
+    **dotenv_values(".env.dev"),  #override
 }
 
 API_KEYS_CHATGPT = [
@@ -186,3 +186,13 @@ if __name__ == "__main__":
     key_end = False
     create_table()
     target = bot.infinity_polling()
+
+''' Ссылки на ресурсы: '''
+# TODO: 1.
+# TODO: 2. ChatGPT_telegram_bot:        https://github.com/ViktorAllayarov/ChatGPT_telegram_bot
+# TODO: 3. https://vc.ru/u/818117-viktor-oblomov/612134-pishem-telegram-bota-na-python-c-ispolzovaniem-api-chatgpt
+# TODO: 4.
+# TODO: 5.
+
+# Дата: 05.03.2023
+# Дуплей Максим Игоревич
